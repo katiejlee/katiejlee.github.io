@@ -1,14 +1,18 @@
-.navbar {
-    background-color: transparent;
-}
-
 body {
   color: white;
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
 #intro {
-  background-image: url('./assets/pexels-magda-ehlers-2114014.jpg');
+  background-image: url('./assets/profile/pexels-magda-ehlers-2114014.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -18,18 +22,15 @@ body {
 
 #title {
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
 }
 
 .profile {
   margin: auto; 
-/*  background-color: white; */
   width:80%;
   text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
   height: 100%;
-  
 }
 
 .profile_image {
@@ -45,4 +46,9 @@ body {
 
 .nav-item {
   font-weight:bold
+}
+
+#about {
+  background-color: white; 
+  color: black;
 }
