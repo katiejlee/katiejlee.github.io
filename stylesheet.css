@@ -5,8 +5,7 @@
 #homepage {
     background-image: url('./assets/sunset.jpeg');
     background-repeat:no-repeat;
-    background-size:cover;
- 
+    background-size:contain;
 }
 
 #title {
