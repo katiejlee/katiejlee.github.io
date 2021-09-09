@@ -61,6 +61,16 @@ h1 {
   padding-bottom: 5%
 }
 
+.container {
+  width: 80%;
+}
+/*
+#carouselExampleCaptions {
+  margin-right: 30%;
+  margin-left: 30%
+}
+*/
+
 footer {
   padding-top: 50px;
 }
