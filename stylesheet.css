@@ -1,3 +1,8 @@
 .navbar {
     background-color: transparent;
 }
+
+#homepage {
+    background-image: url('./assets/sunset.jpeg');
+    background-size : 100% auto
+}
