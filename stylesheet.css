@@ -53,7 +53,7 @@ h1 {
   font-weight:bold
 }
 
-#about, #works, #skills, #contact {
+#about, #works, #skills {
   background-color: white; 
   color: black;
   padding-left: 2%;
@@ -87,6 +87,18 @@ h1 {
 #divider-clouds {
   text-align: center;
   background-color: white;
+}
+
+#contact {
+  background-color: #FFC069;
+  text-align: center;
+}
+
+#contact-title {
+  border-top: 1px black solid;
+/*  border-bottom: 1px black solid;*/
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 footer {
