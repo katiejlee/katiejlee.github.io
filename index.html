@@ -335,7 +335,7 @@
   
   <footer>
     <nav class="navbar fixed-bottom navbar-light bg-light">
-      <div class="container-fluid" >
+      <div class="container-fluid">
         <ul type="none" style="margin-top: 10px; margin-left:auto; margin-right: auto;">
           <li class="footer-li">
             <img src="./assets/logos/GitHub-Mark-120px-plus.png" alt="" class="logo">
@@ -350,8 +350,8 @@
             <a class="footer-link" href="https://www.instagram.com/kttleee/" target="_blank"><span>@kttleee</span></a>
           </li>
         </ul>
-        <div id="back-to-top" style="color:black; display: inline-block"> hello
-        </div>
+        
+        <a id="back-to-top" href="/" style="color:black; display: inline-flex; position:absolute; right:0; padding-right: 10px">Back to Top</a>
       </div>
       
     </nav>
@@ -362,9 +362,12 @@
   
   <script type="text/javascript">
     $(document).scroll(function() { 
-       if($(window).scrollTop() === 0) {
-         $("#back-to-top").hide();
-       }
+      if($(window).scrollTop() === 0) {
+        $("#back-to-top").hide();
+      }
+      else {
+        $("#back-to-top").show();
+      }
     });
   </script>
 
