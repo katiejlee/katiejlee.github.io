@@ -38,7 +38,7 @@ h1 {
   height: 100%;
 }
 
-.profile_image {
+#profile-image {
   border-radius: 50%;
   border: 5px white solid;
   width:20%;
@@ -91,18 +91,31 @@ h1 {
 
 #contact {
   background-color: #FFC069;
-  text-align: center;
+  text-align: center;  
+  padding-bottom: 3%;
 }
 
 #contact-title {
   border-top: 1px black dotted;
-/*  border-bottom: 1px black solid;*/
   padding-top: 3%;
-  padding-bottom: 3%;
+  text-align: center;
 }
 
 .skill-list {
   display: inline-block; 
+  text-align: left;
+}
+
+#banana-selfie {
+  border-radius: 50%;
+  border: 5px white solid;
+  width:40%;
+  height: auto;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.contact-info {
   text-align: left;
 }
 
