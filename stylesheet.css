@@ -119,14 +119,33 @@ h1 {
 #banana-selfie {
   border-radius: 50%;
   border: 5px white solid;
-  width:40%;
+  width:5%;
+  min-width: 50px;
   height: auto;
+  display:inline-flex;
+/*
   margin-right: 2%;
   margin-bottom: 5%;
+*/
+  align-items: center;
+  justify-content: right;
 }
 
 .contact-info {
-  text-align: left;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.emoji {
+  font-size: 150%;
+  padding-right: 1%;
+}
+
+.emoji-text {
+  font-weight: bolder;
 }
 
 footer {
