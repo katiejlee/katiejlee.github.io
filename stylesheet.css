@@ -98,7 +98,6 @@ h1 {
 }
 
 #contact-title {
-/*  border-top: 1px black dotted;*/
   padding-top: 3%;
   text-align: center;
 }
@@ -123,10 +122,6 @@ h1 {
   min-width: 50px;
   height: auto;
   display:inline-flex;
-/*
-  margin-right: 2%;
-  margin-bottom: 5%;
-*/
   align-items: center;
   justify-content: right;
 }
@@ -136,7 +131,6 @@ h1 {
   display: block;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
 }
 
 .emoji {
@@ -150,4 +144,49 @@ h1 {
 
 footer {
   padding-top: 50px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.footer-li {
+  overflow: hidden;
+  list-style: none;
+  white-space:nowrap;
+  margin-right: 10px;
+/*  border-radius: 25px;*/
+  display: inline-block;
+}
+
+.footer-link {
+  vertical-align: middle;
+  opacity: 0;
+  color: black;
+  max-width: 0;
+  display: inline-block;
+  text-decoration: none;
+  transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+.footer-link span {
+  float:right;
+  display: block;
+  padding-right: 1em;
+}
+
+.logo {
+  height: 25px;
+  line-height:1;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.footer-li:hover {}
+.footer-li:hover a {
+  opacity: 1;
+  max-width: 150px;
+  transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
