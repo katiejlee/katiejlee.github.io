@@ -189,3 +189,11 @@ footer {
   max-width: 150px;
   transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
 }
+
+#back-to-top {
+  color: black; 
+/*  display: inline-flex; */
+  position:absolute; 
+  right:0; 
+  padding-right: 10px
+}
