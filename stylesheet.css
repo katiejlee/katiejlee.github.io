@@ -93,6 +93,8 @@ h1 {
   background-color: #FFC069;
   text-align: center;  
   padding-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #contact-title {
@@ -104,6 +106,14 @@ h1 {
 .skill-list {
   display: inline-block; 
   text-align: left;
+}
+
+.lang-head {
+  text-align: center; 
+  font-weight: bolder; 
+  font-size: 110%; 
+  text-decoration-line: underline;
+  display: block;
 }
 
 #banana-selfie {
