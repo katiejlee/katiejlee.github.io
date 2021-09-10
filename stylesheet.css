@@ -98,7 +98,7 @@ h1 {
 }
 
 #contact-title {
-  border-top: 1px black dotted;
+/*  border-top: 1px black dotted;*/
   padding-top: 3%;
   text-align: center;
 }
@@ -121,7 +121,7 @@ h1 {
   border: 5px white solid;
   width:40%;
   height: auto;
-  margin-right: 10%;
+  margin-right: 2%;
   margin-bottom: 5%;
 }
 
