@@ -67,6 +67,23 @@ h1 {
   padding-bottom: 3%;
 }
 
+.col-4 {
+  text-align: center;
+}
+
+.tech-stack:before{
+  content:attr(aria-label);
+  font-size:110%;
+  font-weight:bold;
+  margin-left:-15px;
+}
+
+.source-code {
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top:5%
+}
+
 #divider-clouds {
   text-align: center;
   background-color: white;
