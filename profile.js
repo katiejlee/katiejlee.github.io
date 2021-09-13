@@ -1,17 +1,19 @@
-
+//if (history.scrollRestoration) {
+//    history.scrollRestoration = 'manual';
+//    window.location.href = "https://katiejlee.github.io"
 //
-//window.onbeforeunload = function () {
-//  window.scrollTo(0, 0);
-//  $("#back-to-top").hide();
+//} else {
+//    window.onbeforeunload = function () {
+//        window.scrollTo(0, 0);
+//        window.location.href = "https://katiejlee.github.io"
+//    }
 //}
 
 $(document).ready(function() {
-  $(this).scrollTop(0);
+//  window.location.href = "https://katiejlee.github.io"
+//  $(this).scrollTop(0);
   $("#back-to-top").hide();
-  $(document).attr('title', 'Katie Lee')
-//  if($(window).scrollTop() === 0) {
-//    $("#back-to-top").hide();
-//  }
+  $(document).attr('title', 'Katie Lee');
 });
 
 $(document).scroll(function() { 
