@@ -1,2 +1,7 @@
 # Katie Lee's Homepage
-WIP Currently
+Located at https://katiejlee.github.io/
+
+Tech Stack:
+- HTML/CSS
+- Bootstrap
+- JavaScript
